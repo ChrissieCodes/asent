@@ -49,7 +49,7 @@ print(doc._.polarity)
 # neg=0.0 neu=0.631 pos=0.369 compound=0.7526
 ```
 
-Naturally, a simple score can be quite unsatisfying, thus Asent implements a series of visualizer to interpret the results: 
+Naturally, a simple score can be quite unsatisfying, thus Asent implements a series of visualizations to interpret the results: 
 ```python
 # visualize model prediction
 asent.visualize(doc, style="prediction")
